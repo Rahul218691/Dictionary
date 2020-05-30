@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav>
+    <div class="container">
+        <h3>Dictionary</h3>
+    </div>
+</nav>
+    <h2 class="text-center mt-5">What word do you want to look up?</h2>
+   <div class="container">
+        <div class="form-group">
+            <input type="text"  id="input" class="form-control" placeholder="Type Something..." required autocomplete="off">
+        </div>
+        <div class="form-group">
+            <button id="search" class="btn btn-primary btn-block">Search</button>
+        </div>
+   </div>
+<section class="data container">
+    <span class="loading">Loading...</span>
+    <p class="def"></p>
+    <div class="audio">
+    </div>
+    <div class="not_found"></div>
+</section>
+<div class="footer">
+  <p>Copyright &copy; RahulGuptha</p>
+</div>
+ <script src="app.js"></script>   
+
+</body>
+</html>

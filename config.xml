@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.rahul.budgetapp"
+    versionCode = "10"
+    version     = "8.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Dictionary</name>
+
+  <description>
+     Dictionary app.
+  </description>
+
+  <author href="https://build.phonegap.com" email="rm218691@gmail.com">
+      Rahul Guptha
+  </author>
+    <preference name="android-targetSdkVersion" value="28" />
+    <preference name = "orientation" value = "portrait" />
+<icon src="dictionary.png" />    
+</widget>
